@@ -155,6 +155,12 @@ def delete_log():
     conn.close()
     return render_template("delete_log.html", message="User log deleted successfully.")
 
+@app.route("/huggingface_sepia",methods=["GET","POST"])
+def huggingface_sepia():
+    return(render_template("huggingface_sepia.html"))
+
+    
+
 if __name__ == "__main__":
     app.run()
 
