@@ -159,7 +159,6 @@ def delete_log():
 def huggingface_sepia():
     return(render_template("huggingface_sepia.html"))
 
-    
 
 if __name__ == "__main__":
     app.run()
